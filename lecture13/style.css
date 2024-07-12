@@ -1,0 +1,38 @@
+/*  Psuedo Classes are used to give website good view and make interactive tags */
+/* Positon property */
+/* static(by default),
+relative (styles relative to something) ,
+fixed (fixed to one position not affect my scroll or any other elemtnt [come out or regular flow of document]) ,
+absolute (positon to parent who has relative display property) ,
+sticky it make  element move upto specific position then stick it to at that place; */
+
+a:link {
+  color: gray;
+}
+a:visited {
+  color: green;
+}
+a:active {
+  color: black;
+}
+
+:hover {
+  color: red;
+}
+
+#nav {
+  background: Lightgoldenrodyellow;
+  margin: 10px auto;
+  padding: 5px;
+  position: sticky;
+  top: 0px;
+}
+
+#nav ul {
+  margin: 10px auto;
+}
+
+#nav ul li {
+  display: inline-block;
+  font-weight: bold;
+}

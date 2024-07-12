@@ -1,0 +1,20 @@
+a {
+  text-decoration: none;
+  color: red;
+}
+/* Specificity
+    id:100
+    class: 10
+    tag: 1
+      
+    #header{
+    background: Lightblue;
+    }
+    
+    header {
+    background: lightskyblue;
+    }
+    
+    .para{
+    letter-spacing: 1px;
+    }*/
